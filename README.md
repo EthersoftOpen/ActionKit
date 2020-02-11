@@ -32,10 +32,11 @@ ActionKit focuses on:
 
 ActionKit provides the following:
 
-- [actionKit](https://www.npmjs.com/package/actionkit) - NPM-distributed Typescript/JS  library to manage and invoke actions through a gateway.
-- [Action.Kit](https://github.com/EthersoftOpen/Action.Kit) - .Net Standard Library
-- [ActionGateway](https://github.com/EthersoftOpen/Action.Kit.Gateway) - .Net Core-powered Web Gateway reference implementation
-- [Actor](https://github.com/EthersoftOpen/Action.Kit.Actor) - .Net Core based Event Listener that performs actions. Requires an ActionGateway.
+- [Action.Kit](https://github.com/EthersoftOpen/Action.Kit) - .Net Standard Implementation
+- [actionKit](https://www.npmjs.com/package/actionkit) - Typescript/JS Implementation
+- [ActionGateway](https://github.com/EthersoftOpen/Action.Kit.Gateway) - Deployable .Net Core based Action Gateway. Provides backing management and tooling for turn-key C# Actions.
+- [Action.Kit.Actor](https://github.com/EthersoftOpen/Action.Kit.Actor) - .Net Core based Event Listener that performs actions. Requires an ActionGateway.
+- [actionKit-Actor](https://www.npmjs.com/package/actionkit-client) - Typescript/JS Gateway Client
 
 ### Visibility
 
@@ -58,7 +59,6 @@ ActionKit should be as usable for the Application Developer as for the Platform 
 - Distributed Action Repository - Easily distribute your Actions to Actors
 - Transaction-based Action Tracing - Modeled log and trace information for your Actions
 - Optional database-backed datastore
- 
 
 ### License
 
